@@ -9,8 +9,8 @@
   --shadow-light-color: #fff;
   --main-bg-color: #ecf0f3;
 
-  --box-shadow: 1rem 1rem 1rem var(--shadow-dark-color),
-  -1rem -1rem 1rem var(--shadow-light-color);
+  /* --box-shadow: 1rem 1rem 1rem var(--shadow-dark-color),
+  -1rem -1rem 1rem var(--shadow-dark-color); */
 
   --box-shadow-2: 0rem 0rem 0rem var(--shadow-dark-color),
   -.3rem -.3rem 1rem var(--shadow-dark-color)
@@ -28,7 +28,7 @@ body {
 }
 
 a {
-  color: inherit;
+  color:rgb(5, 16, 35);
   text-decoration: none;
 }
 
@@ -57,12 +57,20 @@ a {
   background:  var(--icons-color);
   width: .5rem;
 }
-/* @media (prefers-color-scheme: dark) {
+
+
+@media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
   body {
     color: white;
-    background: black;
+    background: rgb(5, 16, 35);
+    
   }
-} */
+
+ 
+
+
+
+} 

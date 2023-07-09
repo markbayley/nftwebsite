@@ -5,7 +5,7 @@ import Style from "../styles/index.module.css";
 import {
   HeroSection,
   Service,
-  BigNFTSilder,
+  BigNFTSlider,
   Subscribe,
   Title,
   Category,
@@ -23,28 +23,36 @@ const Home = () => {
   return (
     <div className={Style.homePage}>
       <HeroSection />
-      {/* <Service />
-      <BigNFTSilder />
+      <Service />
+      <BigNFTSlider />
       <Title
         heading="Audio Collection"
         paragraph="Discover the most outstanding NFTs in all topics of life."
-      /> */}
+      /> 
+      <Category />
+     
+      <Subscribe />
+      <Title
+        heading="Featured NFTs"
+        paragraph="Discover the most outstanding NFTs in all topics of life."
+      />
+      <Filter />
+      {/*
+  
+     */}
       {/* <AudioLive />
       <FollowerTab />
       <Slider />
       <Collection />
-      <Title
-        heading="Featured NFTs"
-        paragraph="Discover the most outstanding NFTs in all topics of life."
-      /> */}
-      {/* <Filter />
+      */}
+      {/*
       <NFTCard />
       <Title
         heading="Browse by category"
         paragraph="Explore the NFTs in the most featured categories."
       />
-      <Category />
-      <Subscribe />
+  
+     
       <Brand />
       <Video /> */}
     </div>
